@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter auto checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files (if dataset is too big)
+*.csv
+*.pkl
